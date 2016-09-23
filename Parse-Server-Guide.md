@@ -31,7 +31,7 @@ Parse Server is an open source version of the Parse backend that can be deployed
 ## Prerequisites
 
 * Node 4.3
-* MongoDB version 2.6.X or 3.0.X
+* MongoDB version 2.6.X, 3.0.X or 3.2.6
 * Python 2.x (For Windows users, 2.7.1 is the required version)
 * For deployment, an infrastructure provider like Heroku or AWS
 
@@ -141,7 +141,7 @@ Parse Server uses [MongoDB](https://www.mongodb.org/) as the database for your a
 
 The Mongo requirements for Parse Server are:
 
-* MongoDB version 2.6.X or 3.0.X
+* MongoDB version 2.6.X or 3.0.X or 3.2.6
 * The [failIndexKeyTooLong](https://docs.mongodb.org/manual/reference/parameters/#param.failIndexKeyTooLong) parameter must be set to `false`.
 * An SSL connection is recommended (but not required).
 * We strongly recommend that your MongoDB servers be hosted in the US-East region for minimal lantecy.
