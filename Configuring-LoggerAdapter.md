@@ -3,7 +3,7 @@ By default parse-server uses a winston logger.
 ### Configuration 
 
 Logging configuration options for which there are [defaults](https://github.com/ParsePlatform/parse-server/blob/master/src/defaults.js) can be configured by including a key and value in the top level of your parse-server configuration.  These options include: 
-* `level` which defaults to info
+* `logLevel` which defaults to info
 * `jsonLogs` which defaults to false
 * `logsFolder` which defaults to `./logs`
 
