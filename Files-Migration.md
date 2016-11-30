@@ -1,3 +1,20 @@
+## Community tools for file migration:
+
+Those tools are provided as is, please refer to their documentation and open issues on their respective repositories.
+
+### [parse-files-utils](https://github.com/parse-server-modules/parse-files-utils)
+
+Parse-file-utils started as a simple tool capable of listing all the files in your database based on the _Schema table.
+It now supports migrating file to any adapter, as well as simple configuration to migrate to S3 or Google Cloud.
+this project is maintained by the official parse-server maintainers.
+
+### [parse-files-migration-tool](https://github.com/Meetic/parse-files-migration-tool)
+
+parse-files-migration-tool allows the users to migrate files directly to S3, maintained by [Maxence Dupressoir](https://github.com/MaxenceDupressoir).
+
+
+## Other Possibilities
+
 In order of priority and easiest to hardest, here's how we should allow files migration from Hosted Parse to Parse Server:
 
 ### In Flight
