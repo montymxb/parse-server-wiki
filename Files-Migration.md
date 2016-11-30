@@ -1,4 +1,4 @@
-## Community tools for file migration:
+## Community tools for file migration
 
 Those tools are provided as is, please refer to their documentation and open issues on their respective repositories.
 
