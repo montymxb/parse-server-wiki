@@ -14,7 +14,7 @@
 * [Keys](/ParsePlatform/parse-server/wiki/Parse-Server-Guide#keys)
 * [Using Parse SDKs with Parse Server](/ParsePlatform/parse-server/wiki/Parse-Server-Guide#using-parse-sdks-with-parse-server)
 * [Deploying Parse Server](/ParsePlatform/parse-server/wiki/Parse-Server-Guide#deploying-parse-server)
-* [Configuring Third Party Auth](/ParsePlatform/parse-server/wiki/OAuth)
+* [Configuring Third Party Auth](/ParsePlatform/parse-server/wiki/OAuth--and-Custom-Authentication)
 * [Configuring File Adapters](/ParsePlatform/parse-server/wiki/Configuring-File-Adapters)
 * [Configuring Cache Adapters](/ParsePlatform/parse-server/wiki/Configuring-Cache-Adapters)
 * [Configuring Logger Adapters](/ParsePlatform/parse-server/wiki/Configuring-LoggerAdapter)
