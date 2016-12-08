@@ -11,7 +11,7 @@ Configuration options for these 3rd-party modules is done with the `oauth` optio
 
 ```js
 {
-  oauth: {
+  auth: {
    twitter: {
      consumer_key: "", // REQUIRED
      consumer_secret: "" // REQUIRED
@@ -30,7 +30,7 @@ It is possible to leverage the OAuth support with any 3rd party authentication t
 ```js
 {
 
-  oauth: {
+  auth: {
    my_custom_auth: {
      module: "PATH_TO_MODULE" // OR object,
      option1: "",
