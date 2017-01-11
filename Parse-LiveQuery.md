@@ -157,6 +157,7 @@ Based on your usage, different components of the LiveQuery server may become the
 In general, our suggestion to make the LiveQuery server scalable is to separate the Parse Server with the LiveQuery server and add more LiveQuery server instances based on your need. To help you do this, we use Redis to implement a Publisher and Subscriber. If you want to use that, the only thing you need to do is to provide the Redis server address when you initialize the Parse Server and LiveQuery server like this:
 
 ```javascript
+// parse-server
 let api = new ParseServer({
   ...,
   liveQuery: {
@@ -167,10 +168,13 @@ let api = new ParseServer({
 
 ...
 
+// live-query server
 let httpServer = require('http').createServer(app);
 httpServer.listen(port);
 var parseLiveQueryServer = ParseServer.createLiveQueryServer(httpServer,  {
-  ...,
+  appId: appId, // appId provided to parse-server
+  masterKey: masterKey, // masterKey provided to parse-server
+  serverURL: serverURL, // serverURL to connect to parse-server
   redisURL: 'redis://localhost:6379'
 });
 ```
