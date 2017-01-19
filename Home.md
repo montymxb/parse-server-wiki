@@ -50,3 +50,10 @@ See the [Development Guide](/ParsePlatform/parse-server/wiki/Development-Guide) 
 * [Parse Open Source Community](http://parseopensource.github.io/) - An unofficial community site with links and a Slack channel.
 * [Running Parse Server with HyperDev and mLab](https://github.com/ParsePlatform/parse-server/wiki/Running-Parse-Server-with-HyperDev-and-mLab) - Get Parse Server up and running in minutes, for free, with mLab and HyperDev
 * [Running Parse Dashboard with HyperDev](https://github.com/ParsePlatform/parse-server/wiki/Running-Parse-Dashboard-with-HyperDev) - Get Parse Dashboard up and running in minutes, for free, with HyperDev
+
+---
+
+### iOS Resources
+
+* [Query Parse](https://itunes.apple.com/de/app/query-parse/id1170245634?l=en&mt=8) - Build and run SQL-liked queries to Parse Server (and parse.com) easily from your iOS device.
+* [Parser](https://itunes.apple.com/br/app/parser-browse-manage-parse/id1102677107?mt=8) - Manage your Parse instance on the go!
