@@ -65,7 +65,7 @@ See the [Development Guide](/ParsePlatform/parse-server/wiki/Development-Guide) 
 * [Discussion: How much does it cost to host Parse Server?](https://github.com/ParsePlatform/parse-server/issues/1174) - Also started in March 2016, in this thread the community discusses the costs associated with hosting your own Parse Server.
 * [Parse Open Source Community](http://parseopensource.github.io/) - An unofficial community site with links and a Slack channel.
 
-### iOS Resources
+#### iOS Resources
 
 * [Query Parse](https://itunes.apple.com/de/app/query-parse/id1170245634?l=en&mt=8) - Build and run SQL-liked queries to Parse Server (and parse.com) easily from your iOS device.
 * [Parser](https://itunes.apple.com/br/app/parser-browse-manage-parse/id1102677107?mt=8) - Manage your Parse instance on the go!
