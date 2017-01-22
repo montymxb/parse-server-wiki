@@ -8,7 +8,7 @@ See the [Parse Server Guide](/ParsePlatform/parse-server/wiki/Parse-Server-Guide
 
 ### Migrating to Parse Server from hosted Parse
 
-The hosted version of Parse will be fully retired on January 28th, 2017. Migrate your existing Parse apps to your own Parse Server by following the [migration guide](https://parse.com/migration).
+The hosted version of Parse will be fully retired on January 30th, 2017. Migrate your existing Parse apps to your own Parse Server by following the [migration guide](https://parse.com/migration).
 
 ### Development
 
