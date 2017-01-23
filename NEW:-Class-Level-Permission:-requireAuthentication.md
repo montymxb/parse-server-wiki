@@ -4,17 +4,17 @@ Classe level permissions are a security feature from parse-server that allows on
 
 ## new on parse-server: `requireAuthentication`
 
-If you want to restrict access to a full class to only authenticated users, you can now use the CLP `requireAuthentication`. For example, you want to allow your **authenticated users** to `find` and `get` Objects from your application and your admin users to have all privileged, you would set the CLP:
+If you want to restrict access to a full class to only authenticated users, you can now use the CLP `requiresAuthentication`. For example, you want to allow your **authenticated users** to `find` and `get` Objects from your application and your admin users to have all privileged, you would set the CLP:
 
 ```
-// POST http://localhost:1337/schemas/:className 
+// PUT http://localhost:1337/schemas/:className 
 // Set the X-Parse-Application-Id and X-Parse-Master-Key header
 // body: 
 {
   classLevelPermissions: 
   {
     "find": {
-      "requireAuthentication": true,
+      "requiresAuthentication": true,
       "role:admin": true
     },
     "get": {
