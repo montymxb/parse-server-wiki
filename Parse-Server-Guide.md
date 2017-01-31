@@ -236,7 +236,7 @@ ParseClient.initialize(new ParseClient.Configuration {
 
 ```php
 ParseClient::initialize('YOUR_APP_ID', 'YOUR_CLIENT_KEY', 'YOUR_MASTER_KEY');
-ParseClient::setServerURL('http://localhost:1337/parse');
+ParseClient::setServerURL('http://localhost:1337', 'parse');
 ```
 
 # Deploying Parse Server
